@@ -1,0 +1,127 @@
+*{
+    padding:0 ;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+.main-div{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+justify-content: space-around;
+margin-top: 40px;
+}
+
+.main-heading{
+    font-size: 60px;
+    font-weight: 900;
+    margin-top: 10%;
+    text-align: center;
+}
+
+.container1{
+    border: 1px solid black;
+    width: 30%;
+    background-color: #999999;
+    
+}
+.heading1{
+border-left: 2px solid black;
+border-bottom: 2px solid black;
+float: right;
+text-align: right;
+padding-right: 10px;
+padding-left: 30px;
+background-color: #D59898;
+} 
+.para{
+    padding: 10px 15px 15px 15px;
+    margin-top: 30px;
+    
+}
+.container2{
+    border: 1px solid black;
+    width: 30%;
+    background-color: #999999;
+}
+.heading2{
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+    float: right;
+    text-align: right;
+    padding-right: 10px;
+    padding-left: 30px;
+    background-color: #C14543;
+
+} 
+.para2{
+    padding: 10px 15px 15px 15px;
+}
+    
+.container3{
+    border: 1px solid black;
+    width: 30%;
+    background-color: #999999;
+}
+.heading3{
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+    float: right;
+    text-align: right;
+    padding-right: 10px;
+    padding-left: 30px;
+    background-color: #E5D198;
+
+} 
+.para3{
+    padding: 10px 15px 15px 15px;
+    text-align: center;
+}
+
+/* Simple Responsive Framework. */
+
+/* ------Desktop View------ */
+@media(max-width:992px){
+    .container1{
+        width: 40%;
+    }
+    .container2{
+    width: 40%;
+    }
+    .container3{
+        width: 80%;
+        margin-top: 10px;
+    }
+}
+
+/* ------Tablet View------ */
+
+@media(max-width:768px){
+    .container1{
+        width: 40%;
+    }
+    .container2{
+    width: 40%;
+    }
+    .container3{
+        width: 40%;
+        margin-top: 10px;
+    }
+}
+
+/* ------Mobile View------ */
+@media(max-width:767px){
+    .container1{
+        width: 60%;
+
+    }
+    .container2{
+        margin-top: 10px;
+    width: 60%;
+    }
+    .container3{
+        width: 60%;
+        margin-top: 10px;
+    }
+}
